@@ -89,7 +89,7 @@ function App() {
         setFavorites((prev) => [...prev, data]);
       }
     } catch (error) {
-      alert('Не удалось добавить в любимое');
+      alert('Не удалось добавить в закладки');
       console.error(error);
     }
   };
