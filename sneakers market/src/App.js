@@ -21,9 +21,9 @@ function App() {
     async function fetchData() {
       try {
         const [cartResponse, favoritesResponse, itemsResponse] = await Promise.all([
-          axios.get('https://60d62397943aa60017768e77.mockapi.io/cart'),
+          axios.get('https://639ed3b65eb8889197edc0ed.mockapi.io/cart'),
           axios.get('https://60d62397943aa60017768e77.mockapi.io/favorites'),
-          axios.get('https://60d62397943aa60017768e77.mockapi.io/items'),
+          axios.get('https://639ed3b65eb8889197edc0ed.mockapi.io/items'),
         ]);
 
         setIsLoading(false);
